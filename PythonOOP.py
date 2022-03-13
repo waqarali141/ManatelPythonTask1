@@ -26,5 +26,5 @@ class Circle:
 
 if __name__ == "__main__":
     c = Circle(radius=10)
-    print("Radius of the circle: {}, Perimeter of the circle: {}".format(c.get_radius(), c.get_perimeter()))
+    print("Radius of the circle: {}, Perimeter of the circle: {}".format(c.get_area(), c.get_perimeter()))
 
